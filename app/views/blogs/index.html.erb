@@ -1,0 +1,15 @@
+<h1>ブログ一覧</h1>
+<table>
+  <tr>
+    <th>タイトル<th>
+    <th>内容</th>
+  </tr>
+  <% @blog.each do |blog|%>
+  <tr>
+    <td><%= blog.title %></td>
+    <td><%= blog.content %></td>
+    <td><%= link_to "ブログ詳細画面へ", blog_path(blog.id)%></td>
+  </tr>
+  <% end %>
+</table>
+<%= link_to "ブログ作成画面へ", new_blog_path %>
