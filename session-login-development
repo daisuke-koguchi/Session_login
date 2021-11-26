@@ -1,0 +1,36 @@
+                                           List of databases
+             Name             |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+------------------------------+----------+----------+-------------+-------------+-----------------------
+ associations_development     | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ associations_test            | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ blog_development             | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ blog_test                    | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ blogapp_development          | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ blogapp_test                 | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app2_development     | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app2_test            | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app_development      | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app_exam_development | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app_exam_test        | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ contact_app_test             | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ error_check_app_development  | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ error_check_app_test         | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ goya                         | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ goya1                        | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ heroku_test_app_development  | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ heroku_test_app_test         | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres                     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sample2_development          | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sample2_test                 | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sample_development           | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sample_test                  | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ session_login_development    | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ session_login_test           | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ shop                         | vagrant  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0                    | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                              |          |          |             |             | postgres=CTc/postgres
+ template1                    | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                              |          |          |             |             | postgres=CTc/postgres
+ tomato                       | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+(29 rows)
+

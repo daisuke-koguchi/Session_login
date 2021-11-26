@@ -1,0 +1,13 @@
+class FavoritesController < ApplicationController
+  def show
+    @favorite = current_user.favorites.find_by(blog_id:@blog.id)
+  end
+  def create
+    favorite = current_user.favorites.create(blog_id: params[:blog_id])
+    redirect_to blogs_path, notice: "#{favorite.blog.user.name}さんのブログをお気に入り登録しました"
+  end
+  def destroy
+    favarite = current_user.favorite.find_by(id:params[:id]).destroy
+    redirect_to blogs_path, notice: "#{ravorite.blog.user.name}さんのブログをお気に入り解除しました"
+  end
+end
